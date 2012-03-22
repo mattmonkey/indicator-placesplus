@@ -8,12 +8,12 @@
 from ConfigParser import SafeConfigParser
 from xml2obj import Xml2Obj, Element
 from urllib import unquote, quote
-from os.path import basename,join,expanduser
+from os.path import basename,join,expanduser,dirname
 from os import getcwd
 
 xml_path_app = "info/metadata/bookmark:applications/bookmark:application"
 path_recentlyused = expanduser("~/.local/share/recently-used.xbel")
-path_config= join(getcwd(),"placesplus")
+path_config= join(dirname(__file__),"placesplus")
 
 class ConfigParser:
 	"""
