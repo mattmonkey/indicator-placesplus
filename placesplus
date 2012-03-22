@@ -1,0 +1,38 @@
+# ********************************
+# indicator-placesplus 配置文件
+# ********************************
+#
+#
+# 配置菜单
+# -------------------
+#
+# 1. [菜单名]
+# 2. [菜单名=图标名]
+#
+# 
+# 配置菜单内容
+# -------------------
+# 
+# 运行下面的py脚本，查询可用的mimetype. 追加到菜单配置下面
+# >>> ./placesconfig.py
+# 
+# 如：
+# [book]
+# # 注意要加=号
+# application/pdf=
+# 
+# 
+# date:   
+# author: mattmonkey <mattmonkey@sina.com> 
+
+[资料=evince]
+application/pdf=
+
+[视频=smplayer]
+application/vnd.rn-realmedia=
+video/x-matroska=
+video/x-ms-asf=
+video/x-ms-wmv=
+video/x-msvideo=
+application/x-matroska=
+
